@@ -198,15 +198,4 @@
     <!-- Operating voltage for bluetooth controller. 0 by default-->
     <integer translatable="false" name="config_bluetooth_operating_voltage_mv">3700</integer>
 
-    <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_enableSmartPixels">true</bool>
-
-    <!-- Battery fast charge (in microwatt) 5000000 is 1 Amp * 5 Volts
-         Note for msm8974, power is in milliwatts, not microwatts -->
-    <integer name="config_chargingSlowlyThreshold">2500</integer>
-
-    <!-- Battery fast charge (in microwatt) 5000000 is 1 Amp * 5 Volts
-         Note for msm8974, power is in milliwatts, not microwatts -->
-    <integer name="config_chargingFastThreshold">5000</integer>
-
 </resources>
